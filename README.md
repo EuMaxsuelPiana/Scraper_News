@@ -1,6 +1,6 @@
-# 📰 NotíciaScraper
+# 📰 Scraper News
 
-Este repositório contém scripts em Python que realizam scraping de notícias de forma automática:
+Este repositório contém scripts em Python que realizam scraping(extraem informações de sites) de notícias de forma automática:
 
 ## 🔧 1. Scraper Avançado e Configurável
 
@@ -16,4 +16,5 @@ Um scraper robusto que:
 ### 💡 Exemplo de uso
 
 ```bash
-python ...
+python app.py
+python news_scraper.py
