@@ -1,2 +1,19 @@
-# Scraper_News
-Scraper_News é um script em Python para coletar automaticamente notícias de sites como o G1. Ele extrai título, link, resumo e data de publicações, com opção de salvar o conteúdo completo. Os dados podem ser exportados em JSON ou CSV. Ideal para quem precisa monitorar ou analisar notícias de forma automatizada.
+# 📰 NotíciaScraper
+
+Este repositório contém scripts em Python que realizam scraping de notícias de forma automática:
+
+## 🔧 1. Scraper Avançado e Configurável
+
+Um scraper robusto que:
+
+- Coleta **título, link, resumo, data** e **(opcionalmente) conteúdo completo** das notícias.
+- Suporta múltiplos sites configuráveis (ex: G1, sites fictícios).
+- Evita duplicatas utilizando **hashes locais** das notícias processadas.
+- Utiliza táticas anti-bloqueio: **headers customizados**, **retries com backoff** e **delays aleatórios**.
+- Permite exportação para **JSON** ou **CSV**.
+- Fácil de adaptar para novos sites alterando apenas a configuração.
+
+### 💡 Exemplo de uso
+
+```bash
+python ...
