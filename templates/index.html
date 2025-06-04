@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Notícias do Espírito Santo</title>
+</head>
+<body>
+    <h1>📰 Notícias do Espírito Santo</h1>
+    {% for fonte in todas_noticias %}
+        <h2>{{ fonte.site }}</h2>
+        <ul>
+            {% for noticia in fonte.noticias %}
+                <li>{{ noticia }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>
+    
